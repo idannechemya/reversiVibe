@@ -2,14 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "reversi/index.html",
+      "src": "*.html",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/reversi/index.html"
     }
   ]
 }
