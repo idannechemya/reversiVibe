@@ -1,0 +1,13 @@
+{
+  "name": "reversi-vibe",
+  "version": "1.0.0",
+  "description": "A classic Reversi/Othello game with computer opponent",
+  "main": "reversi/index.html",
+  "scripts": {
+    "start": "npx serve reversi",
+    "dev": "npx serve reversi"
+  },
+  "keywords": ["reversi", "othello", "game", "javascript"],
+  "author": "idan",
+  "license": "MIT"
+}
